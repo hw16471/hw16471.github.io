@@ -4,8 +4,8 @@ layout: default
 
 # Portfolio
 
-## [CV](https://github.com/hw16471/hw16471.github.io/blob/master/pdf/Harry%20Waugh%20-%20Jan%202019.pdf)
-The lastest version of my CV can be downloaded [here](https://github.com/hw16471/hw16471.github.io/blob/master/pdf/Harry%20Waugh%20-%20Jan%202019.pdf).
+## [CV](assets/docs/HarryWaugh.pdf)
+The lastest version of my CV can be downloaded [here](assets/docs/HarryWaugh.pdf).
 
 ## [Computer Graphics Raytracer](https://github.com/ainsleyrutterford/UOB_Raytracer)
 <div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;">
@@ -36,7 +36,7 @@ Requirements: A GPU, OpenCL, GLM, and SDL2
 
 ---
 ## [Parallel Optimisations of a Lattice Boltzmann Code (Using the BlueCrystal Supercomputer)](https://github.com/hw16471/UOB_OpenCL_LBM)
-<img src="images/final_state.png" width="450">
+<img src="assets/img/final_state.png" width="450">
 ### Overview
 This project was all about learning how to exploit different hardware to improve the runtime of a Lattice Boltzmann code, which is widely used for simulating fluid dynamics. Popular programming platforms like MPI, OpenMP and OpenCL were each implmented and tested in various different combinations. The most efficient of these was OpenCL or MPI+OpenCL, which utilised one or more GPUs. If you want know more about this, please read the [article](https://github.com/hw16471/UOB_OpenCL_LBM/blob/master/submission/report.pdf) I wrote. 
 
@@ -58,7 +58,7 @@ Requirements: A GPU, OpenCL
 ---
 
 ## [Disseration: Using Sensor Fusion and Deep Learning to Improve Activity Tracking](https://github.com/hw16471/ActivityTrackingWithSensorFusion)
-<img src="images/rnn-kal-map.png" width="450">
+<img src="assets/img/rnn-kal-map.png" width="450">
 ### Overview
 I wrote my dissertation for my Computer Science degree on whether the accuracy of GPS tracking for sports activities (running, cycling, walking) could be improved using additional sensors found in a smartphone. Initially, I implemented a Kalman Filter to fuse the readings of each sensor, this was written in python and used popular libraries like NumPy. I then researched and taught myself the theory behind Recurrent Neural Networks (RNNs) in order to implement them using tensorflow and keras. This project was supported by the Oracle Innovation Accelerator program, who generously gave me access to a cloud compute instance.
 
@@ -81,7 +81,7 @@ Requirements: A GPGPU, Python, Tensorflow_GPU, NumPy, Keras
 
 ---
 ## [Web Technologies](https://github.com/hw16471/UOB_Web_Tech_CW)
-<img src="images/web-tech-showcase.png" width="450">
+<img src="assets/img/web-tech-showcase.png" width="450">
 ### Overview
 This project involved creating a website for a University of Bristol games project, Khaos Kitchen. The website showcased a range of different technologies, each used with respect to web standards and compatability. A working forum was set up using a NodeJS server and an SQLite3 embedded database. The forum was created dynamically using templating engine 'pug.js', and requested different parts of the forum 'on the fly' as the user needed them.
 
@@ -104,7 +104,7 @@ Requirements: NodeJS and Packages found in packages.json
 
 
 ## [Applied Security - DPA Attacks](https://github.com/hw16471/AppliedSecurity)
-<img src="images/labelled_trace.png" width="450">
+<img src="assets/img/labelled_trace.png" width="450">
 ### Overview
 This project developed my understanding of how AES encryption works and the different 'trade offs' between speed, memory usage and ultimately, security. An AES implementation was first developed to run a scale-board from the University of Bristol, this device has severe hardware limitations and thus any implementation must be efficient. One of the ways this was done was to pre-compute the sbox function. A Differential Power Attack (DPA) was then created in python to interact with the board in order to gather power traces. These recorded traces could then be compared to hypothetical power consumption values for a chosen message in order to recover the key, using approximately 125 traces. A counter-measure for this style of attack was implemented called masking, this carefully used 6 masks throughout the encryption process to prevent information leaking from the CPU. This prevented key recovery for 'first order' DPA style attacks. 
 
@@ -127,7 +127,7 @@ Requirements: A scale-board.
 ---
 
 ## [Detecting Dartboards](https://github.com/hw16471/UOB_DartboardDetector)
-<img src="images/everythingdart14.jpg" width="450">
+<img src="assets/img/everythingdart14.jpg" width="450">
 ### Overview
 This project looked at the Viola-Jones classifier and transforming images into the Hough space. Using the Hough space, line and circle detection was combined to identify dartboards within images.
 
