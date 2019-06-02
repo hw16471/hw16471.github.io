@@ -14,7 +14,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 id=title><a href="/">Harry Waugh</a></h1>
+        <h1 class=title><a href="/">Harry Waugh</a></h1>
+        <h4 class=title><a href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" id="profile_pic" />
@@ -23,15 +24,13 @@
 
         <h4>{{ site.description }}</h4>
 
+        <h4 class="collection_items" >Education</h4>
+        <p class="collection_items" >{{ site.education }}</p>
 
-        <h4>Experience</h4>
-        <p>{{ site.experience }}</p>
-
-        <h4>Education</h4>
-        <p>{{ site.education }}</p>
-
-        <h4>Contact</h4>
-        <p>{{ site.contact }}</p>
+        <h4 class="collection_items" >Experience</h4>
+        {% for experience in site.experiences %}
+          <p class="collection_items">{{ experience.position }} - {{ experience.company }} ({{ experience.date_string }})</p>
+        {% endfor %}
 
         {% if site.show_downloads %}
         <ul class="downloads">
