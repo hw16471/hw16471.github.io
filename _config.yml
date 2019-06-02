@@ -4,15 +4,13 @@ linkedin: https://www.linkedin.com/in/harry-waugh-09a4b1152/
 logo: "/assets/img/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <strong> A driven, ambitious and rounded graduate from the University of Bristol, interested in HPC, Computer Graphics and Deep Learning.</strong>
-  <br><br>
-  <strong>Experience</strong>
-  <br>
+education:
+  University of Bristol (2016-2019)
+experience:
   Maths Tutor - St Mary Redcliffe School (2017-2019)
   <br>
   Intern - Advanced Computing Research Centre (2019)
-  <br><br>
-  <strong>Contact</strong>
-  <br>
+contact:
   <a href="tel:+447714190277">07714190277</a>
   <br>
   <a href="mailto:hw16471@bristol.ac.uk">hw16471@bristol.ac.uk</a>

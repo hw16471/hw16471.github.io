@@ -20,7 +20,18 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" id="profile_pic" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <h4>{{ site.description }}</h4>
+
+
+        <h4>Experience</h4>
+        <p>{{ site.experience }}</p>
+
+        <h4>Education</h4>
+        <p>{{ site.education }}</p>
+
+        <h4>Contact</h4>
+        <p>{{ site.contact }}</p>
 
         {% if site.show_downloads %}
         <ul class="downloads">

@@ -9,7 +9,7 @@ The lastest version of my CV can be downloaded [here](assets/docs/HarryWaugh.pdf
 
 ## [Computer Graphics Raytracer](https://github.com/ainsleyrutterford/UOB_Raytracer)
 <div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;">
-  <iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
+  <iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;;border-radius:15px">
   </iframe>
 </div>
 <br>
@@ -144,7 +144,7 @@ make all
 ```
 Requirements: CPP and OpenCV
 
----
+<!-- ---
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
@@ -266,3 +266,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+ -->
