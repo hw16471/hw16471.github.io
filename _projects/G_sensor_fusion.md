@@ -23,4 +23,3 @@ python deep_learning.py
 ```
 Requirements: A GPGPU, Python, Tensorflow_GPU, NumPy, Keras
 
----
