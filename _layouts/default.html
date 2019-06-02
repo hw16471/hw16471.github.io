@@ -14,13 +14,13 @@
   <body>
     <div class="wrapper">
       <header>
+
         <h1 class=title><a href="/">Harry Waugh</a></h1>
-        <h4 class=title><a href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" id="profile_pic" />
         {% endif %}
-
+        <h4 class=title><a href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
 
         <h4>{{ site.description }}</h4>
 
