@@ -1,8 +1,23 @@
 @import "fonts";
 @import "rouge-github";
 
+
+#profile_pic {
+  border-radius: 15px;
+}
+
+#title {
+  text-align: center;
+}
+
+
 body {
   background-color: #fff;
+/*  background: url("../img/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -27,7 +42,7 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#03A9F4;
 }
 
 h3, h4, h5, h6 {
@@ -35,12 +50,13 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:#03A9F4;
   text-decoration:none;
 }
 
 a:hover, a:focus {
   color:#069;
+  text-decoration: underline;
   font-weight: bold;
 }
 
