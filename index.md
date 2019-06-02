@@ -6,6 +6,7 @@ layout: default
 
 {% for project in site.projects %}
   <p>{{ project.content | markdownify }}</p>
+  ---
 {% endfor %}
 
 
