@@ -1,0 +1,16 @@
+Record of what I did during internship.
+
+Day 1:
+Setup environments on catalyst, bp1, bcp4. Briefly looked at some fortran syntax and some 'helloworld' netcdf and hdf5 programs.
+Installed these on my own laptop, and started researching how to put them on blue crystal.
+Day 2:
+Attemptted to put HDF5 and NetCDF on catalyst.
+Day 3:
+Put Phylo-bayes on bcp3 and setup output for code timeing.
+Created Isambard account. Tau profiling doesn't work, check compile log file.
+Got phylo-bayes dataset.
+Traces=Seeing where different processes diverge, how long they wait, etc
+Profile=how long each process spends in certain functions.
+Fixed errors in pb_mpi in order to get tau to profile the code
+http://pages.tacc.utexas.edu/~eijkhout/pcse/html/tau.html
+http://www.complang.tuwien.ac.at/hans/hpc17s/tau_docs/tau_by_example.pdf
