@@ -12,32 +12,36 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="card">
 
-        <h1 class=title><a href="/">Harry Waugh</a></h1>
+        <h1 class=profile_title><a href="/">Harry Waugh</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" id="profile_pic" />
         {% endif %}
-        <h4 class=title><a href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
+        <h4 class=profile_title><a href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
 
-        <h4>{{ site.description }}</h4>
+        <div class=content_wrapper>
+          <h4>{{ site.description }}</h4>
 
-        <h4 class="collection_items" >Education</h4>
-        <p class="collection_items" >{{ site.education }}</p>
+          <h4 class="collection_items" >Education</h4>
+          <p class="collection_items" >{{ site.education }}</p>
 
-        <h4 class="collection_items" >Experience</h4>
-        {% for experience in site.experiences %}
-          <p class="collection_items">{{ experience.position }} - {{ experience.company }} ({{ experience.date_string }})</p>
-        {% endfor %}
+          <h4 class="collection_items" >Experience</h4>
+          {% for experience in site.experiences %}
+            <p class="collection_items">{{ experience.position }} - {{ experience.company }} ({{ experience.date_string }})</p>
+          {% endfor %}
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.linkedin }}">View On <strong>LinkedIn</strong></a></li>
-          <li><a href="assets/docs/HarryWaugh.pdf">Download <strong>CV</strong></a></li>
-          <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+          {% if site.show_downloads %}
+          <ul class="downloads">
+            <li><a href="{{ site.linkedin }}">View On <strong>LinkedIn</strong></a></li>
+            <li><a href="assets/docs/HarryWaugh.pdf">Download <strong>CV</strong></a></li>
+            <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
+          </ul>
+          {% endif %}
+
+        </div>
+        
       </header>
       <section>
 

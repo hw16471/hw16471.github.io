@@ -2,21 +2,22 @@
 layout: default
 ---
 
-# Portfolio
+<div class="card">
+  <h3 class="title">The latest version of my CV can be downloaded <a href="assets/docs/HarryWaugh.pdf" download>here</a>.</h3>
+</div>
 
-
-## [CV](assets/docs/HarryWaugh.pdf)
-The lastest version of my CV can be downloaded [here](assets/docs/HarryWaugh.pdf).
-
-
+---
 
 {% for project in site.projects %}
+  <div class="card">
+    <h2 class="title"><a href="{{ project.github }}">{{ project.title }}</a></h2>
+    <br>
+    {{ project.media }}
+    <div class="content_wrapper">
+      <p>{{ project.content | markdownify }}</p>
+    </div>
+  </div>
   
-  <h2><a href="{{ project.github }}">{{ project.title }}</a></h2>
-  {{ project.media | markdownify }}
-
-
-  <p>{{ project.content | markdownify }}</p>
   ---
 {% endfor %}
 

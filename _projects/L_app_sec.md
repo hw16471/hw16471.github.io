@@ -1,16 +1,8 @@
 ---
-title: Computer Graphics Raytracer 
-github: https://github.com/ainsleyrutterford/UOB_Raytracer
-media: >
-<div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;">
-  <iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;;border-radius:15px">
-  </iframe>
-</div>
-<br>
+title: Applied Security - DPA Attacks 
+github: https://github.com/hw16471/AppliedSecurity
+media: <img src="assets/img/labelled_trace.png" width="450">
 ---
-
-## [Applied Security - DPA Attacks](https://github.com/hw16471/AppliedSecurity)
-<img src="assets/img/labelled_trace.png" width="450">
 ### Overview
 This project developed my understanding of how AES encryption works and the different 'trade offs' between speed, memory usage and ultimately, security. An AES implementation was first developed to run a scale-board from the University of Bristol, this device has severe hardware limitations and thus any implementation must be efficient. One of the ways this was done was to pre-compute the sbox function. A Differential Power Attack (DPA) was then created in python to interact with the board in order to gather power traces. These recorded traces could then be compared to hypothetical power consumption values for a chosen message in order to recover the key, using approximately 125 traces. A counter-measure for this style of attack was implemented called masking, this carefully used 6 masks throughout the encryption process to prevent information leaking from the CPU. This prevented key recovery for 'first order' DPA style attacks. 
 

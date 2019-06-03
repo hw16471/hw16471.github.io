@@ -1,16 +1,8 @@
 ---
-title: Computer Graphics Raytracer 
-github: https://github.com/ainsleyrutterford/UOB_Raytracer
-media: >
-<div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;">
-  <iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;;border-radius:15px">
-  </iframe>
-</div>
-<br>
+title: Dissertation - Using Sensor Fusion and Deep Learning to Improve Activity Tracking
+github: https://github.com/hw16471/ActivityTrackingWithSensorFusion
+media: <img src="assets/img/rnn-kal-map.png" width="450">
 ---
-
-## [Dissertation: Using Sensor Fusion and Deep Learning to Improve Activity Tracking](https://github.com/hw16471/ActivityTrackingWithSensorFusion)
-<img src="assets/img/rnn-kal-map.png" width="450">
 ### Overview
 I wrote my dissertation for my Computer Science degree on whether the accuracy of GPS tracking for sports activities (running, cycling, walking) could be improved using additional sensors found in a smartphone. Initially, I implemented a Kalman Filter to fuse the readings of each sensor, this was written in python and used popular libraries like NumPy. I then researched and taught myself the theory behind Recurrent Neural Networks (RNNs) in order to implement them using tensorflow and keras. This project was supported by the Oracle Innovation Accelerator program, who generously gave me access to a cloud compute instance.
 
