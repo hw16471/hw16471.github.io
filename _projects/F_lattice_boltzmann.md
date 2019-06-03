@@ -5,7 +5,7 @@ media: <img src="assets/img/final_state.png" width="300px">
 ---
 
 ### Overview
-This project was all about learning how to exploit different hardware to improve the runtime of a Lattice Boltzmann code, which is widely used for simulating fluid dynamics. Popular programming platforms like MPI, OpenMP and OpenCL were each implemented and tested in various different combinations. The most efficient of these was OpenCL or MPI+OpenCL, which utilized one or more GPUs. If you want know more about this, please read the [article](https://github.com/hw16471/UOB_OpenCL_LBM/blob/master/submission/report.pdf) I wrote. 
+This project was all about learning how to exploit different hardware to improve the runtime of a Lattice Boltzmann code, which is widely used for simulating fluid dynamics. Popular programming platforms like MPI, OpenMP and OpenCL were each implemented and tested in various different combinations. The most efficient of these was OpenCL or MPI+OpenCL, which utilized one or more GPUs. If you want know more about this, please read the [article](assets/docs/report.pdf) I wrote. 
 
 ### Technologies 
 * C

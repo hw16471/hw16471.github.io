@@ -73,37 +73,45 @@ h1 {
   font-size:28px;
 }
 
-/*h2 {
-  color:#03A9F4;
-}*/
-
-
-h3, h4, h5, h6 {
-  color:#494949;
-}
 
 a {
-  color: #000;
   text-decoration:none;
 }
 
-a:hover, a:focus {
-  color:#03A9F4;
-  /*color:#069;*/
+a:hover, a:focus, a:visited {
+  color:inherit;
   text-decoration: underline;
   font-weight: bold;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:inherit;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color: inherit;
 }
+
+h1 {
+  color: #e31a1c;
+}
+
+h2 {
+  color: #fc4e2a;  
+}
+
+h3 {
+  color: #fd8d3c;  
+}
+
+h4 {
+  color: #feb24c;  
+}
+
+
 
 .wrapper {
   width:960px;

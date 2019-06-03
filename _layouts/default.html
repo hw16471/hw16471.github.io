@@ -19,7 +19,8 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" id="profile_pic" />
         {% endif %}
-        <h4 class=profile_title><a href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
+        <h4 class=profile_title>{{ site.email }}</h4>
+
 
         <div class=content_wrapper>
           <h4>{{ site.description }}</h4>
