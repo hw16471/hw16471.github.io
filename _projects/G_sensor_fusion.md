@@ -1,6 +1,14 @@
 ---
-title: dissertation 
+title: Computer Graphics Raytracer 
+github: https://github.com/ainsleyrutterford/UOB_Raytracer
+media: >
+<div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;">
+  <iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;;border-radius:15px">
+  </iframe>
+</div>
+<br>
 ---
+
 ## [Dissertation: Using Sensor Fusion and Deep Learning to Improve Activity Tracking](https://github.com/hw16471/ActivityTrackingWithSensorFusion)
 <img src="assets/img/rnn-kal-map.png" width="450">
 ### Overview

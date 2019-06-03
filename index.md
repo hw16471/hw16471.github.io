@@ -4,7 +4,18 @@ layout: default
 
 # Portfolio
 
+
+## [CV](assets/docs/HarryWaugh.pdf)
+The lastest version of my CV can be downloaded [here](assets/docs/HarryWaugh.pdf).
+
+
+
 {% for project in site.projects %}
+  
+  <h2><a href="{{ project.github }}">{{ project.title }}</a></h2>
+  {{ project.media | markdownify }}
+
+
   <p>{{ project.content | markdownify }}</p>
   ---
 {% endfor %}
