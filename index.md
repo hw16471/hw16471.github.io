@@ -8,6 +8,7 @@ layout: default
 
 ---
 
+
 {% for project in site.projects %}
   <div class="card">
     <h2 class="title"><a href="{{ project.github }}">{{ project.title }}</a></h2>
