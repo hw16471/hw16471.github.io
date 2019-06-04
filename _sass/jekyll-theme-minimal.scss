@@ -50,14 +50,12 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+
   background-image: url("../img/dartmoor.jpg"); 
-  /*  -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-*/
-  height:100%;
-  width:100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center center;
