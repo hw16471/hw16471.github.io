@@ -79,7 +79,11 @@ a {
   text-decoration:none;
 }
 
-a:hover, a:focus, a:visited {
+ a:visited {
+  color:inherit;
+ }
+
+a:hover, a:focus{
   color:inherit;
   text-decoration: underline;
   font-weight: bold;
