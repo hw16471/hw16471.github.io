@@ -10,6 +10,7 @@
 
 .card {
   /*border-radius: 15px;*/
+  background-color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -44,12 +45,12 @@ img {
 }
 
 body {
-  background-color: #fff;
-/*  background: url("../img/background.jpg") no-repeat center center fixed; 
+  /*background-color: #fff;*/
+  background: url("../img/dartmoor.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -96,19 +97,19 @@ a:hover small {
 }
 
 h1 {
-  color: #e31a1c;
+  color: #000;
 }
 
 h2 {
-  color: #fc4e2a;  
+  color: #222;  
 }
 
 h3 {
-  color: #fd8d3c;  
+  color: #333;  
 }
 
 h4 {
-  color: #feb24c;  
+  color: #333;  
 }
 
 
