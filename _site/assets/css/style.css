@@ -446,7 +446,13 @@ footer {
 
 @media print, screen and (max-width: 1060px) {
   .card {
-    box-shadow: none; }
+    box-shadow: none;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #profile_pic {
+    max-width: 40%; }
 
   #title {
     text-align: left; }
@@ -472,6 +478,9 @@ footer {
   header a small {
     display: inline; } }
 @media print, screen and (max-width: 720px) {
+  #profile_pic {
+    max-width: 50%; }
+
   #title {
     text-align: center; }
 

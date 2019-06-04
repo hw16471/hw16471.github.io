@@ -55,7 +55,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background: url("../img/dartmoor.jpg") no-repeat center center fixed; 
-  
+
 
 }
 
@@ -267,6 +267,13 @@ footer {
 
   .card {
     box-shadow: none;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #profile_pic {
+    max-width: 40%;
   }
 
   #title {
@@ -302,6 +309,11 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
+
+  #profile_pic {
+    max-width: 50%;
+  }
+
 
   #title {
     text-align: center;
