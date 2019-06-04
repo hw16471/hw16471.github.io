@@ -274,14 +274,11 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
-  background-image: url("../img/dartmoor.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; }
+  background: url("../img/dartmoor.jpg") no-repeat center center fixed; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
