@@ -44,14 +44,24 @@ img {
   margin-top: 2px;
 }
 
+html {
+    overflow: hidden;
+}
+
+html, body {
+    height:100%;
+} 
+
 body {
   /*background-color: #fff;*/
-  padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
   background: url("../img/dartmoor.jpg") no-repeat center center fixed; 
-  
+  overflow-y: scroll;
+  -webkit-overflow-scrolling:touch;
+
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
