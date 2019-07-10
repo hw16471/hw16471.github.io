@@ -6,9 +6,9 @@ media: <div style="width:100%;height:0px;position:relative;padding-bottom:58.044
 ---
 ### Overview
 This project involved building a Real-Time Raytracer from scratch using OpenCL, GLM and SDL. As can be seen above, this raytracer was used to render the [Cornell Box](https://en.wikipedia.org/wiki/Cornell_box) where phenomena such as reflection and refraction have been showcased. The realism of the rendered image was improved further using anti-aliasing and soft shadows. Other Cornell Box scenes are shown in the images below:
-* [scene1](https://streamable.com/1mugn)
-* [scene2](https://streamable.com/kwoa2)
-* [scene3](https://streamable.com/phfs2)
+* [scene1](assets/img/showcase1.png)
+* [scene2](assets/img/showcase2.png)
+* [scene3](assets/img/showcase3.png)
 
 ### Technologies 
 * C++
