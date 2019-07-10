@@ -44,14 +44,24 @@ img {
   margin-top: 2px;
 }
 
+html {
+    overflow: hidden;
+}
+
+html, body {
+    height:100%;
+} 
+
 body {
   /*background-color: #fff;*/
-  padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
   background: url("../img/dartmoor.jpg") no-repeat center center fixed; 
-  
+  overflow-y: scroll;
+  -webkit-overflow-scrolling:touch;
+
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -79,46 +89,47 @@ h1 {
 
 
 a {
-  color:inherit;
+  color:#64B5F6;
   text-decoration:none;
 }
 
  a:visited {
-  color:inherit;
+  color:#42A5F5;
  }
 
 a:hover, a:focus{
-  color:inherit;
+  color: #1E88E5; ;
   text-decoration: underline;
   font-weight: bold;
 }
 
 a small {
   font-size:11px;
-  color:inherit;
+  color: #42A5F5; ;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color: inherit;
+  color: #64B5F6;
 }
 
 h1 {
-  color: #000;
+  color: #1E88E5;
 }
 
 h2 {
-  color: #222;  
+  color: #1E88E5;  
 }
 
 h3 {
-  color: #333;  
+  color: #444;  
 }
 
 h4 {
-  color: #333;  
+  color: #444;  
 }
+
 
 
 

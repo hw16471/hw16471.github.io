@@ -10,7 +10,7 @@ This project involved building a Real-Time Raytracer from scratch using OpenCL, 
 * [scene3](https://streamable.com/phfs2)
 
 ### Technologies 
-* C
+* C++
 * OpenCL
 * OpenGL Mathematics (GLM)
 * Simple DirectMedia Layer (SDL2)
