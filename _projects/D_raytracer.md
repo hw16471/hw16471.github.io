@@ -1,6 +1,6 @@
 ---
 title: Computer Graphics Raytracer 
-github: https://github.com/ainsleyrutterford/UOB_Raytracer
+github: https://github.com/hw16471/UOB_Raytracer
 media: <div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;"><iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div><br>
 ---
 ### Overview
@@ -18,7 +18,7 @@ This project involved building a Real-Time Raytracer from scratch using OpenCL, 
 
 ### Compile and Run
 ```bash
-git clone git@github.com:ainsleyrutterford/UOB_Raytracer
+git clone git@github.com:hw16471/UOB_Raytracer
 cd UOB_Raytracer
 source clean_build.sh
 ```
