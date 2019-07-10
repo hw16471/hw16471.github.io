@@ -1,7 +1,7 @@
 ---
 title: Computer Graphics Raytracer 
 github: https://github.com/hw16471/UOB_Raytracer
-media: <iframe src="https://player.vimeo.com/video/347279698" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+media: <div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;"><iframe src="https://player.vimeo.com/video/347279698" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div><br>
 ---
 ### Overview
