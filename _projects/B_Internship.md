@@ -3,7 +3,6 @@ title: ACRC Internship
 # github: https://github.com/hw16471/UOB_Raytracer
 media: <img src="assets/img/acrc.png" width="100%">
 ---
-### Overview
 Given my interest in HPC, I have sought to expand my knowledge in the area by taking up an intern position at the Advanced Computing Research Centre (ACRC). At the ACRC, I have spent time analyzing the performance of PhyloBayes - a phylogenetics code - on both Intel and ARM systems. Identifying that PhyloBayes wasn’t vectorizing a key loop, I provided speedups of 2.5x, saving researchers months of computing time. 
 
 ### Highlights
