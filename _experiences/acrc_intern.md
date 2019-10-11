@@ -1,6 +1,6 @@
 ---
 position: HPC Intern
 company: ACRC
-date_string: 2019
+date_string: May-Aug 2019
 ---
 description goes here
