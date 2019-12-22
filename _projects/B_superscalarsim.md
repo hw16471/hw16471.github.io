@@ -16,6 +16,7 @@ A quick overview of the simulator can be found in [Superscalar Simulator.pdf](ht
 
 **Compile:**
 ```shell
+git clone git@github.com:hw16471/SuperscalarSim
 # To compile scalar:
 make stats
 # To compile pipelined:
