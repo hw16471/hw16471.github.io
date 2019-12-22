@@ -1,5 +1,5 @@
 ---
-title: ACRC Internship
+title: ACRC Internship (May 2019)
 # github: https://github.com/hw16471/UOB_Raytracer
 media: <img src="assets/img/acrc.png" width="100%">
 ---

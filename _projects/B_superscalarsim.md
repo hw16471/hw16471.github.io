@@ -1,5 +1,5 @@
 ---
-title: Superscalar Processor Simulator
+title: Superscalar Processor Simulator (Dec 2019)
 github: https://github.com/hw16471/SuperscalarSim
 media: <img src="assets/img/architecture_diagram.png" width="100%">
 ---
@@ -14,7 +14,7 @@ A quick overview of the simulator can be found in [Superscalar Simulator.pdf](ht
 
 ### Compile and Run
 
-**Compiling:**
+**Compile:**
 ```shell
 # To compile scalar:
 make stats
@@ -26,7 +26,7 @@ make superscalar-stats-<BPredictor>
 
 The code can also be run in a step-by-step debug mode by replacing `stats` with `debug`.
 
-**Running**
+**Run:**
 ```shell
 ./simulator.exe programs/<program>
 # where program = {

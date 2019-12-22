@@ -1,5 +1,5 @@
 ---
-title: Dissertation - Using Sensor Fusion and Deep Learning to Improve Activity Tracking
+title: Dissertation - Using Sensor Fusion and Deep Learning to Improve Activity Tracking (May 2019)
 github: https://github.com/hw16471/ActivityTrackingWithSensorFusion
 media: <img src="assets/img/rnn-kal-map.png" width="450">
 ---

@@ -1,5 +1,5 @@
 ---
-title: Detecting Dartboards 
+title: Detecting Dartboards (Dec 2017)
 github: https://github.com/hw16471/UOB_DartboardDetector
 media: <img src="assets/img/everythingdart14.jpg" width="450">
 ---

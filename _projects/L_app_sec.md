@@ -1,5 +1,5 @@
 ---
-title: Applied Security - DPA Attacks 
+title: Applied Security - DPA Attacks (May 2019)
 github: https://github.com/hw16471/AppliedSecurity
 media: <img src="assets/img/labelled_trace.png" width="450">
 ---
